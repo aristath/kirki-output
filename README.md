@@ -11,7 +11,7 @@ How the object will be instantiated:
 $my_output = Kirki_Output::get_instance( 'my_config' );
 
 // Add a field.
-$my_output->add_from_field( $field );
+new Kirki_Output_Field( 'config_id', $field );
 
 // Generate the CSS after all fields have been added.
 $my_output->generate_css();
