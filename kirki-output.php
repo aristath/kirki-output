@@ -23,3 +23,5 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+include_once dirname( __FILE__ ) . '/class-kirki-output.php';
